@@ -1,6 +1,6 @@
 # :zap: Node File Upload
 
-* This Node.js app uploads image files to an 'uploads' folder. A client frontend lets the user select the file to upload.
+* Uploads image files selected by the user from an Ionic frontend to a Node.js backend folder.
 
 **Note:** to open web links in a new window use: _ctrl+click on link_
 
@@ -29,17 +29,18 @@
 
 ## :signal_strength: Technologies
 
-**Frontend:**
+**Frontends:**
 
 * [Ionic v5](https://ionicframework.com/)
 * [Angular v10](https://angular.io/)
-* [Angular/Ionic v5](https://www.npmjs.com/package/@ionic/angular)
+* [ionic/angular v5](https://www.npmjs.com/package/@ionic/angular) angular building blocks for Ionic
+* [ionic/react v5](https://www.npmjs.com/package/@ionic/react) react building blocks for Ionic
 
 **Backend:**
 
 * [body parser](https://www.npmjs.com/package/body-parser) Node.js body parsing middleware
 * [cors](https://www.npmjs.com/package/cors) Cross Origin Resource Sharing Connect/Express middleware
-* [Express v4](https://expressjs.com/)
+* [Express v4](https://expressjs.com/) Node.js middleware
 * [Morgan v1](https://www.npmjs.com/package/morgan) HTTP request logger middleware for node.js
 * [Multer v1](https://www.npmjs.com/package/multer) Middleware for handling `multipart/form-data`.
 * [Busboy](https://github.com/mscdex/busboy) used by Multer as a streaming parser for HTML form data for node.js
