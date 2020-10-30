@@ -80,11 +80,11 @@ app.post('/uploads', upload.array('photos[]'), (req, res) => {
 ## :clipboard: Status & To-Do List
 
 * Status: Working.
-* To-Do: This is a very simple app. It is possible to upload the same photo multiple times - could add a check if photo/title exists already. Add commenting. Add other frontends.
+* To-Do: This is a very simple app. It is possible to upload the same photo multiple times - could add a check if photo/title exists already. Add commenting.
 
 ## :clap: Inspiration
 
-* [How to upload files to a server with Ionic](https://www.youtube.com/watch?v=tcWTl7tBT5E&ck_subscriber_id=433042050)
+* [Joshua Morony: Youtube: How to upload files to a server with Ionic](https://www.youtube.com/watch?v=tcWTl7tBT5E&ck_subscriber_id=433042050)
 
 ## :envelope: Contact
 
