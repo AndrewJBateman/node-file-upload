@@ -47,7 +47,7 @@
 
 ## :floppy_disk: Setup
 
-**/Ionic-Angular, /Ionic-React & /Ionic-Vue Frontends:**
+**/Ionic-Angular & /Ionic-React Frontends:**
 
 * Run `npm i` to install dependencies
 * Run `ionic serve` & navigate to `http://localhost:8080/` or `ng serve` & navigate to `http://localhost:4200/` to run server. The app will automatically reload if you change any of the source files.
@@ -58,7 +58,7 @@
 
 ## :computer: Code Examples
 
-* Run `server-express/index.js` extract to show use of dependencies and posting of objects to uploads folder.
+* Extract from `server-express/index.js` to show use of dependencies and posting of objects to uploads folder.
 
 ```javascript
 app.use(cors());
