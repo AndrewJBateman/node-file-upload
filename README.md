@@ -47,18 +47,18 @@
 
 ## :floppy_disk: Setup
 
-**/ Ionic-Angular Frontend:**
+**/Ionic-Angular, /Ionic-React & /Ionic-Vue Frontends:**
 
-* `npm run lint` to lint files
-* `ionic serve` & navigate to `http://localhost:8080/` or `ng serve` & navigate to `http://localhost:4200/` to run server. The app will automatically reload if you change any of the source files.
+* Run `npm i` to install dependencies
+* Run `ionic serve` & navigate to `http://localhost:8080/` or `ng serve` & navigate to `http://localhost:4200/` to run server. The app will automatically reload if you change any of the source files.
 
 **/server-express Backend:**
 
-* `node index.js` to run node.js server. Backend does not update automatically as nodemon not used
+* Run `node index.js` for a node.js server. Backend does not update automatically as nodemon not used
 
 ## :computer: Code Examples
 
-* `server-express/index.js` extract to show use of dependencies and posting of objects to uploads folder.
+* Run `server-express/index.js` extract to show use of dependencies and posting of objects to uploads folder.
 
 ```javascript
 app.use(cors());
