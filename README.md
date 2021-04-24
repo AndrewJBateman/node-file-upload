@@ -89,6 +89,10 @@ app.post('/uploads', upload.array('photos[]'), (req, res) => {
 
 * [Joshua Morony: Youtube: How to upload files to a server with Ionic](https://www.youtube.com/watch?v=tcWTl7tBT5E&ck_subscriber_id=433042050)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
