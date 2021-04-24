@@ -32,7 +32,7 @@
 **Frontends:**
 
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 * [ionic/angular v5](https://www.npmjs.com/package/@ionic/angular) angular building blocks for Ionic
 * [ionic/react v5](https://www.npmjs.com/package/@ionic/react) react building blocks for Ionic
 
@@ -49,8 +49,11 @@
 
 **/Ionic-Angular & /Ionic-React Frontends:**
 
-* Run `npm i` to install dependencies
-* Run `ionic serve` & navigate to `http://localhost:8080/` or `ng serve` & navigate to `http://localhost:4200/` to run server. The app will automatically reload if you change any of the source files.
+* `npm i` to install dependencies
+* I had to have a Google Chrome CORS extension activated for this to work
+* Angular frontend: Run `ionic serve` & navigate to `http://localhost:8080/` or `ng serve` & navigate to `http://localhost:4200/` to run server. The app will automatically reload if you change any of the source files.
+* React frontend: Run `npm run start` & navigate to `http://localhost:3001/`
+* The apps will automatically reload if you change any of the source files.
 
 **/server-express Backend:**
 
@@ -74,13 +77,13 @@ app.post('/uploads', upload.array('photos[]'), (req, res) => {
 
 ## :cool: Features
 
-* Tutorial shows a number of different front-ends that can be used to pass objects to the backend
+* Tutorial shows different front-ends that can be used to pass objects to the backend
 * Backend 'uploads' folder is automically created if it does not exist already.
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
-* To-Do: This is a very simple app. It is possible to upload the same photo multiple times - could add a check if photo/title exists already. Add commenting.
+* Status: Working
+* To-Do: Nothing. There is repeated frontend ionic-angular code and scope for refactoring - I am leaving it as is for now.
 
 ## :clap: Inspiration
 
