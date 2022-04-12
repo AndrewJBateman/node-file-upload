@@ -1,8 +1,12 @@
 # :zap: Node File Upload
 
 * Uploads image files selected by the user from an Ionic frontend to a Node.js backend folder.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**Note:** to open web links in a new window use: _ctrl+click on link_
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/node-file-upload?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/node-file-upload?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/node-file-upload?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/node-file-upload?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -16,12 +20,13 @@
 	* [:cool: Features](#cool-features)
 	* [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
 	* [:clap: Inspiration](#clap-inspiration)
+	* [:file_folder: License](#file_folder-license)
 	* [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
 * Very simple backend using node with express and multer to load image files.
-* Client frontend uses Ionic-Angular to show user controls to upload file from PC file system.
+* Client frontend uses Ionic-Angular or Ionic-React to show user controls to upload file from PC file system.
 
 ## :camera: Screenshots
 
@@ -49,7 +54,8 @@
 
 **/Ionic-Angular & /Ionic-React Frontends:**
 
-* `npm i` to install dependencies
+* `cd client-angular` then `npm i` to install Angular frontend dependencies
+* `cd client-react` then `npm i` to install React frontend dependencies
 * I had to have a Google Chrome CORS extension activated for this to work
 * Angular frontend: Run `ionic serve` & navigate to `http://localhost:8080/` or `ng serve` & navigate to `http://localhost:4200/` to run server. The app will automatically reload if you change any of the source files.
 * React frontend: Run `npm run start` & navigate to `http://localhost:3001/`
@@ -57,6 +63,7 @@
 
 **/server-express Backend:**
 
+* `cd server-express` then `npm i` to install backend dependencies
 * Run `node index.js` for a node.js server. Backend does not update automatically as nodemon not used
 
 ## :computer: Code Examples
