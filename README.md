@@ -43,9 +43,8 @@
 
 **Backend:**
 
-* [body parser](https://www.npmjs.com/package/body-parser) Node.js body parsing middleware
 * [cors](https://www.npmjs.com/package/cors) Cross Origin Resource Sharing Connect/Express middleware
-* [Express v4](https://expressjs.com/) Node.js middleware
+* [Express v4](https://expressjs.com/) Node.js middleware, includes body parsing
 * [Morgan v1](https://www.npmjs.com/package/morgan) HTTP request logger middleware for node.js
 * [Multer v1](https://www.npmjs.com/package/multer) Middleware for handling `multipart/form-data`.
 * [Busboy](https://github.com/mscdex/busboy) used by Multer as a streaming parser for HTML form data for node.js
