@@ -36,15 +36,15 @@
 
 **Frontends:**
 
-* [Ionic v5](https://ionicframework.com/)
-* [Angular v11](https://angular.io/)
-* [ionic/angular v5](https://www.npmjs.com/package/@ionic/angular) angular building blocks for Ionic
+* [Ionic v6](https://ionicframework.com/)
+* [Angular v13](https://angular.io/)
+* [ionic/angular v6](https://www.npmjs.com/package/@ionic/angular) angular building blocks for Ionic
 * [ionic/react v5](https://www.npmjs.com/package/@ionic/react) react building blocks for Ionic
 
 **Backend:**
 
 * [cors](https://www.npmjs.com/package/cors) Cross Origin Resource Sharing Connect/Express middleware
-* [Express v4](https://expressjs.com/) Node.js middleware, includes body 	parsing
+* [Express v4](https://expressjs.com/) Node.js middleware, includes body parsing
 * [Morgan v1](https://www.npmjs.com/package/morgan) HTTP request logger middleware for node.js
 * [Multer v1](https://www.npmjs.com/package/multer) Middleware for handling `multipart/form-data`.
 * [Busboy](https://github.com/mscdex/busboy) used by Multer as a streaming parser for HTML form data for node.js
@@ -71,13 +71,16 @@
 
 ```javascript
 app.use(cors());
-app.use(morgan('combined'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(morgan("combined"));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.post('/uploads', upload.array('photos[]'), (req, res) => {
-	console.log('req.files: ', req.files);
-	console.log('res: ', res);
+app.post("/upload", upload.single("photo"), (req, res) => {
+  console.log(req.file);
+});
+
+app.post("/uploads", upload.array("photos[]"), (req, res) => {
+  console.log(req.files);
 });
 ```
 
