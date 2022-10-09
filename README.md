@@ -37,9 +37,9 @@
 **Frontends:**
 
 * [Ionic v6](https://ionicframework.com/)
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [ionic/angular v6](https://www.npmjs.com/package/@ionic/angular) angular building blocks for Ionic
-* [ionic/react v5](https://www.npmjs.com/package/@ionic/react) react building blocks for Ionic
+* [ionic/react v5](https://www.npmjs.com/package/@ionic/react) react building blocks for Ionic. Don't update to v6 due to React breaking changes
 
 **Backend:**
 
